@@ -12,7 +12,7 @@ public class FileUtils {
 	 * @param dir
 	 * @return
 	 */
-	private static File[] dirList(String dir) {
+	public static File[] dirList(String dir) {
 		File path = new File(dir);
 		File[] files = path.listFiles(new FileFilter() {
 			@Override
